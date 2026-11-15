@@ -100,4 +100,74 @@ Feature importance analysis was performed using the Random Forest model to ident
 **Key Findings:**
 - Overall Quality (`OverallQual`) was the most important feature.
 - Above-ground Living Area (`GrLivArea`) was the second most influential feature.
-- Total Basement Area (`TotalBsmtSF`) also contributed
+- Total Basement Area (`TotalBsmtSF`) also contributed significantly to predictions.
+
+This analysis helps understand the factors that influence the model's predictions.
+
+## Repository Structure
+
+```text
+House-Price-Prediction/
+│
+├── House_Price_Prediction.ipynb
+├── housing data.csv
+├── requirements.txt
+└── README.md
+```
+
+## Installation and Execution
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/divyanshi-singh-17/House-Price-Prediction.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd House-Price-Prediction
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 5. Run the Project
+
+Open `House_Price_Prediction.ipynb` and execute all cells.
+
+## Key Learnings
+
+- Data Cleaning and Preprocessing
+- Handling Missing Values
+- Feature Transformation
+- Regression Algorithms
+- Model Evaluation and Comparison
+- Hyperparameter Tuning
+- Feature Importance Analysis
+- Data Visualization
+
+## Conclusion
+
+This project demonstrates the practical application of supervised machine learning techniques for predicting residential house prices.
+
+Among the implemented models, Random Forest achieved better performance with an R² Score of 0.860 and an MAE of $19,803.99.
+
+The project strengthened practical understanding of data preprocessing, regression modelling, model evaluation, and feature importance analysis using Python and Scikit-learn.
+
+## Author
+
+**Divyanshi Singh**
+
+Aspiring AI/ML Engineer | Data Science Enthusiast
+
+[GitHub Profile](https://github.com/divyanshi-singh-17) | [LinkedIn Profile](https://www.linkedin.com/in/divyanshi-singh17/)
